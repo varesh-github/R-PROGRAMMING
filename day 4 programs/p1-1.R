@@ -1,0 +1,5 @@
+L = sample(LETTERS,size=50,replace=TRUE)
+print(L)
+f = factor(L)
+print(f)
+print(table(L[1:5]))
